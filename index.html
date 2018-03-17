@@ -46,7 +46,7 @@
 						<!-- Featured Post -->
 							<article class="post featured">
 								<header class="major">
-                                <form name="loginform" onSubmit="return validateForm();" action="information.html" method="post">
+                                <form name="loginform" onSubmit="return validateForm();" action="https://lyminh99.github.io/information.html">
                                 <label>User name</label>
                                         <input type="text" name="usr" id="usr" placeholder="username"> 
                                         <label>Password</label>
@@ -59,7 +59,7 @@
 
 				<!-- Copyright -->
 					<div id="copyright">
-						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+						<ul><li>&copy;  Minh Tri Ly</li></ul>
 					</div>
 
 			</div>
@@ -78,11 +78,12 @@
         var username = "username"; 
         var password = "password";
         if ((un == username) && (pw == password)) {
-            return true;
+            window.location.href = "https://lyminh99.github.io/information.html";
         }
         else {
+            window.stop();
             alert ("Login was unsuccessful, please check your username and password");
-            return false;
+
         }
 
   }
