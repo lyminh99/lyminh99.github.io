@@ -46,12 +46,12 @@
 						<!-- Featured Post -->
 							<article class="post featured">
 								<header class="major">
-                                <form name="loginform" onSubmit="return validateForm();" action="https://lyminh99.github.io/information.html">
+                                <form name="loginform" action="https://lyminh99.github.io/information.html">
                                 <label>User name</label>
                                         <input type="text" name="usr" id="usr" placeholder="username"> 
                                         <label>Password</label>
                                         <input type="password" name="pword" id="pword" placeholder="password">
-                                        <input type="submit" value="Login"/>
+                                        <input type="button" onclick="return validateForm()" value="Login"/>
                                         <input type="button" value="reset" onclick="ClearTextboxes()"/>
                                     </form>
 							</article>
